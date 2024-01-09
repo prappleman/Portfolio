@@ -32,3 +32,5 @@ WHEN I resize the page or view the site on various screens and devices
 <br>
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Web Page
+https://prappleman.github.io/module2-challenge/
