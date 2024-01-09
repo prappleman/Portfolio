@@ -1,0 +1,119 @@
+:root {
+    --light: #fff;
+    --mid: #13293d;
+    --mid2: #33495d;
+    --dark: #202020;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+
+.header {
+    background-color: var(--mid);
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: var(--mid2);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-project {
+    flex: 1;
+    background-color: var(--mid);
+    margin: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-box {
+    flex: 1;
+    background-color:var(--mid);
+    margin: 10px;
+    text-align: center;
+    min-width: 350px;
+}
+
+.aboutme-container {
+    display: flex;
+    background-color: var(--mid);
+    margin: 5%;
+}
+
+.aboutme {
+    max-width: 50%;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutme img {
+    float: right;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block ; /* Remove any default image styling */
+    margin: 0 auto ; /* Center the image within its container */
+}
+
+.main-project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block ; /* Remove any default image styling */
+    margin: 0 auto ; /* Center the image within its container */
+}
+
+.project-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block ; /* Remove any default image styling */
+    margin: 0 auto ; /* Center the image within its container */
+}
+
+.contact {
+    color: var(--light);
+    background-color: var(--mid2);
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.contact a {
+    color: var(--light);
+}
